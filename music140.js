@@ -10,7 +10,7 @@ var pre_audio = {
 
 var trial_1 = {
   type: 'audio-keyboard-response',
-  stimulus: '" +repo_site+ "sound/Rosini_BPM140_repeat.mp3',
+  stimulus: '"+repo_site+"sound/Rosini_BPM140_repeat.mp3',
   prompt: '音量調節が終わったらいずれかのキーを押してください',
 }
 
@@ -24,7 +24,7 @@ var main_audio = {
 
 var trial_2 = {
   type: 'audio-keyboard-response',
-  stimulus: '" +repo_site+ "sound/Rosini_BPM140_repeat.mp3',
+  stimulus: '"+repo_site+"sound/Rosini_BPM140_repeat.mp3',
   choices: ['none'],
   prompt: 'もう一つの実験のストループ課題を行ってください. もう一つの実験が終了し次第このウィンドウを閉じてください',
 }
