@@ -8,14 +8,14 @@
   <script src="jspsych-6.1.0/plugins/jspsych-html-button-response.js"></script>
   <link rel="stylesheet" href="jspsych-6.1.0/css/jspsych.css" type="text/css"></link>
 </head>
-<body></body>
-<script>
-  #display_stage_background {
+<body>
+  <style>
+      #display_stage_background {
           width: 100vw;
           background-color: white;
           z-index: -1;
       }
-
+  
       #display_stage {
           position: fixed;
           left: 1vw;
@@ -30,10 +30,11 @@
           overflow-x: hidden;
       }
   </style>
-
+  
   <div id='display_stage_background'></div>
   <div id='display_stage'></div>
 </body>
+
   jsPsych.init({
     timeline: timeline,
     display_element: 'display_stage',
