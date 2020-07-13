@@ -19,7 +19,7 @@ var main_audio = {
   type: 'html-button-response',
   stimulus:　"<p style = 'text-align:left'>Continueを押すと音楽が再生されます</p>" +
   　　　　　　"<p style = 'text-align:left'>メールに記載したもう一つの実験(実験２)をストループ課題の練習が終わるところまで進めてください</p>" +
-             "<p style = 'text-align:left'><b>音楽が再生され次第</b>もう一つの実験の課題を始めてください。</p>" ,
+             "<p style = 'text-align:left'><b>音楽を再生し次第</b>もう一つの実験の課題を始めてください。</p>" ,
   choices: ['Continue'],
 }
 
