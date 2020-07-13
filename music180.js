@@ -9,9 +9,10 @@ var pre_audio = {
 }
 
 var trial_1 = {
-  type: 'audio-keyboard-response',
+  type: 'audio-button-response',
   stimulus: repo_site + 'sound/Rosini_BPM180_repeat.mp3',
-  prompt: '音量調節が終わったらいずれかのキーを押してください',
+  prompt: '音量調節が終わったら「次」を押してください',
+  choice:'次',
 }
 
 var main_audio = {
