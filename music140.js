@@ -1,15 +1,6 @@
 var repo_site = "https://tyasunaga0181.github.io/bgm_audio/";
 
-var PC_check = {
-  type: 'survey-multi-select',
-  questions: [
-    　{prompt:'<p>本実験はスマートフォンでは実施できません。必ずPCで行うようにしてください。PCで行っている場合はチェックをお願いします。</p>',
-      options: ['<span style = "font-size: 14pt">私はPCで本実験に参加しています。</span>'],
-      required: true,
-      name: 'approval_2'
-  }],
-  button_label: '次へ'
-};
+
 
 var pre_audio = {
   type: 'html-button-response',
@@ -29,7 +20,7 @@ var trial_1 = {
 var main_audio = {
   type: 'html-button-response',
   stimulus:　"<p style = 'text-align:left'>Continueを押すと音楽が再生されます</p>" +
-  　　　　　　"<p style = 'text-align:left'>メールに記載したもう一つの実験(実験２)をストループ課題の練習が終わるところまで進めてください</p>" +
+  　　　　　　"<p style = 'text-align:left'>メールに記載したもう一つの実験(実験1 https://tyasunaga0181.github.io/Stroop-task/stroop_master_updated_2.html)を課題の練習が終わるところまで進めてください</p>" +
              "<p style = 'text-align:left'><b>音楽が再生され次第</b>もう一つの実験の課題を始めてください。</p>" ,
   choices: ['Continue'],
 }
@@ -42,7 +33,6 @@ var trial_2 = {
 }
 
 var timeline = [];
-timeline.push(PC_check);
 timeline.push(pre_audio);
 timeline.push(trial_1);
 timeline.push(main_audio);
