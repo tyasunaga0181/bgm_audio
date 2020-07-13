@@ -35,7 +35,7 @@ var pre_audio = {
   };
 
   var timeline = [];
-  timeline.push(pre_audio);
   timeline.push(PC_check);
+  timeline.push(pre_audio);
   timeline.push(instructions);
   timeline.push(instructions_2);
