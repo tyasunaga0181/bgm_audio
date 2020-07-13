@@ -19,7 +19,7 @@ var pre_audio = {
 
   var instructions_2 = {
     type: 'html-keyboard-response',
-    stimulus:  "<p style = 'text-align:left'>もう一つの実験のストループ課題を行ってください。課題が終了し次第このウィンドウは閉じて構いません。</p>",
+    stimulus:  "<p style = 'text-align:left'>もう一つの実験のストループ課題を行ってください。もう一つの実験が終了し次第このウィンドウは閉じて構いません。</p>",
     choices: ['none'],
   };
 
