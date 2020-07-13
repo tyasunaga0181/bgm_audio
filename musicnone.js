@@ -1,3 +1,14 @@
+var PC_check = {
+  type: 'survey-multi-select',
+  questions: [
+    　{prompt:'<p>本実験はスマートフォンでは実施できません。必ずPCで行うようにしてください。PCで行っている場合はチェックをお願いします。</p>',
+      options: ['<span style = "font-size: 14pt">私はPCで本実験に参加しています。</span>'],
+      required: true,
+      name: 'approval_2'
+  }],
+  button_label: '次へ'
+};
+
 var pre_audio = {
   type: 'html-button-response',
   stimulus:　"<p style = 'text-align:left'>Continueを押すと音楽が再生されます。</p>" +
@@ -25,5 +36,6 @@ var pre_audio = {
 
   var timeline = [];
   timeline.push(pre_audio);
+  timeline.push(PC_check);
   timeline.push(instructions);
   timeline.push(instructions_2);
