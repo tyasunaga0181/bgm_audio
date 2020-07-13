@@ -41,8 +41,8 @@ var trial_2 = {
 }
 
 var timeline = [];
-timeline.push(pre_audio);
 timeline.push(PC_check);
+timeline.push(pre_audio);
 timeline.push(trial_1);
 timeline.push(main_audio);
 timeline.push(trial_2);
