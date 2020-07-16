@@ -9,10 +9,8 @@ var pre_audio = {
   var instructions = {
     type: 'html-keyboard-response',
     stimulus: "<p style = 'text-align:left'>この画面が表示された実験参加者の方は音楽聴取を行わずに課題を行っていただきます。</p>" +
-              "<p style = 'text-align:left'>課題が始まる前に<b>音楽を再生している状態で</b>と表示されると思いますが無視していただいて構いません</p>"+
-              "<p style = 'text-align:left'>このまま課題を行ってください。</p>"+
-              "<p style = 'text-align:left'>ただし<b>ヘッドホン,イヤホンを着け、指示があるまで外さないでください。</b></p>",
-              
+              "<p style = 'text-align:left'>課題を行うURL https://tyasunaga0181.github.io/Stroop-task/stroop_master_updated_3.html にアクセスし、画面の指示に従って課題を進めてください。</p>"+
+              "<p style = 'text-align:left'>なお、<b>ヘッドホン・イヤホンを着け、指示があるまで外さないでください。</b></p>",          
     choices: ['none'],
   };
 
