@@ -7,14 +7,13 @@ var pre_audio = {
 }
 
   var instructions = {
-    type: 'html-button-response',
-    stimulus: "<p style = 'text-align:left'>この画面が表示された実験参加者の方は音楽聴取を行わずにストループ課題を行っていただきます。</p>" +
-              "<p style = 'text-align:left'>メールに記載したもう一つの実験(実験1)をストループ課題の練習が終わるところまで進めてください</p>" +
-              "<p style = 'text-align:left'>もう一つの実験では<b>音楽を再生している状態で</b>と表示されると思いますが無視していただいて構いません</p>"+
-              "<p style = 'text-align:left'>このままストループ課題を行ってください。</p>"+
-              "<p style = 'text-align:left'>ただし<b>着けているヘッドホン,イヤホンは外さないでください。</b></p>"+
-              "<p style = 'text-align:left'>準備ができ次第<b>Continueを押した後</b>もう一つの実験の課題を始めてください。</p>",
-    choices: ['Continue'],
+    type: 'html-keyboard-response',
+    stimulus: "<p style = 'text-align:left'>この画面が表示された実験参加者の方は音楽聴取を行わずに課題を行っていただきます。</p>" +
+              "<p style = 'text-align:left'>課題が始まる前に<b>音楽を再生している状態で</b>と表示されると思いますが無視していただいて構いません</p>"+
+              "<p style = 'text-align:left'>このまま課題を行ってください。</p>"+
+              "<p style = 'text-align:left'>ただし<b>ヘッドホン,イヤホンを着け、指示があるまで外さないでください。</b></p>",
+              
+    choices: ['none'],
   };
 
   var instructions_2 = {
