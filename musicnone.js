@@ -10,7 +10,8 @@ var pre_audio = {
     type: 'html-keyboard-response',
     stimulus: "<p style = 'text-align:left'>この画面が表示された実験参加者の方は音楽聴取を行わずに課題を行っていただきます。</p>" +
               "<p style = 'text-align:left'>課題を行うURL https://tyasunaga0181.github.io/Stroop-task/stroop_master_updated_3.html にアクセスし、画面の指示に従って課題を進めてください。</p>"+
-              "<p style = 'text-align:left'>なお、<b>ヘッドホン・イヤホンを着け、指示があるまで外さないでください。</b></p>",          
+              "<p style = 'text-align:left'>課題へのリンクは概要欄に掲載しておりますのでそちらからアクセスしてください。</p>"+
+    "<p style = 'text-align:left'>なお、<b>ヘッドホン・イヤホンを着け、指示があるまで外さないでください。</b></p>",          
     choices: ['none'],
   };
 
