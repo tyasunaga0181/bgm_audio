@@ -3,11 +3,11 @@ var repo_site = "https://tyasunaga0181.github.io/bgm_audio/";
 
 
 var pre_audio = {
-  type: 'html-button-response',
-  stimulus:　"<p style = 'text-align:left'>Continueを押すと音楽が再生されます。</p>" +
-             "<p style = 'text-align:left'>音楽聴取はヘッドホンを用いて行ってください。ヘッドホンがなければイヤホンでも構いません。</p>" +
-  　　　　　　"<p style = 'text-align:left'>音楽が流れたら音量の調整を行ってください。</p>" ,
-  choices: ['Continue'],
+  type: 'html-keyboard-response',
+  stimulus:"<p style = 'text-align:left'>音楽聴取はヘッドホンを用いて行ってください。ヘッドホンがなければイヤホンでも構いません。</p>" +
+  　　　　　"<p style = 'text-align:left'>音楽が流れたら音量の調整を行い、https://tyasunaga0181.github.io/Stroop-task/stroop_master_updated_2.htmlにアクセスしてください。</p>" +
+           "<p style = 'text-align:left'>なお、指示があるまでヘッドホン・イヤホンは外さず動画再生を止めないようにしてください。</p>,
+  choices: ['none'],
 }
 
 var trial_1 = {
