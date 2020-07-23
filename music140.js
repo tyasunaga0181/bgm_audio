@@ -8,7 +8,9 @@ var pre_audio = {
   　　　　　"<p style = 'text-align:left'>課題中は動画をとめないでください。</p>" +
            "<p style = 'text-align:left'>PCの音声をオンにして、イヤホンかヘッドホンを装着してください。</p>"+
  　　　　　 "<p style = 'text-align:left'>現在流れている音が聴きやすいように、音量を調節してください。</p>"+
-           "<p style = 'text-align:left'>準備が済みましたら、動画を再生したまま、動画概要欄のURLをクリックしてください。</p>" ,
+           "<p style = 'text-align:left'>準備が済みましたら、動画を再生したまま、動画概要欄のURLをクリックしてください。</p>" +
+  　　　　　"<p style = 'text-align:left'>動画再生中に音声が流れなくなる場合がありますが気にせず課題を続けてください。</p>" ,
+           
   choices: ['none'],
 }
 
